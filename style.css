@@ -1,0 +1,93 @@
+.bodys {
+  background-color: hwb(128 24% 0% / 0.868);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 40px 30px;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-logo {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.header-links > a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hero-text {
+  width: 60%;
+}
+
+.hero-text > h2 {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.hero-text > p {
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  margin-top: 20px;
+}
+
+.buttons > .get-started {
+  background-color: black;
+  color: white;
+  padding: 15px 12px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.buttons > .contact-us {
+  background-color: white;
+  color: black;
+  padding: 15px 12px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.hero-image {
+  width: 30%;
+}
